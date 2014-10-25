@@ -1,0 +1,385 @@
+[3;J[H[2J
+[95m █████╗ ███╗   ██╗ █████╗ ████████╗ ██████╗ ███╗   ███╗██╗   ██╗
+██╔══██╗████╗  ██║██╔══██╗╚══██╔══╝██╔═══██╗████╗ ████║╚██╗ ██╔╝
+███████║██╔██╗ ██║███████║   ██║   ██║   ██║██╔████╔██║ ╚████╔╝ 
+██╔══██║██║╚██╗██║██╔══██║   ██║   ██║   ██║██║╚██╔╝██║  ╚██╔╝  
+██║  ██║██║ ╚████║██║  ██║   ██║   ╚██████╔╝██║ ╚═╝ ██║   ██║   
+╚═╝  ╚═╝╚═╝  ╚═══╝╚═╝  ╚═╝   ╚═╝  ╚═════╝ ╚═╝   ╚═╝   ╚═╝[0m
+
+[96m# 13:30:34 - Starting Anatomy generator.[0m
+
+[96m# 13:30:34 - Current project directory: /home/alex/Documents/Projects/tamuhack-directory[0m
+[93m[0m[92m# 13:30:36 - Installing Anatomy generator in /home/alex/Documents/Projects/tamuhack-directory.[0m
+
+[93m[0m[96m# 13:31:40 - Spawning brain.[0m
+[92m# 13:31:41 - Successfully spawned brain.[0m
+
+[96m# 13:31:41 - Spawning brain/cerebrum.[0m
+[92m# 13:31:42 - Successfully spawned brain/cerebrum.[0m
+
+[96m# 13:31:42 - Spawning muscle.[0m
+[92m# 13:31:43 - Successfully spawned muscle.[0m
+
+[96m# 13:31:43 - Spawning muscle/visceral.[0m
+[92m# 13:31:44 - Successfully spawned muscle/visceral.[0m
+
+[96m# 13:31:44 - Spawning skeleton.[0m
+[92m# 13:31:45 - Successfully spawned skeleton.[0m
+
+[96m# 13:31:45 - Spawning skin.[0m
+[92m# 13:31:46 - Successfully spawned skin.[0m
+
+[96m# 13:31:47 - Spawnking skin/dermis.[0m
+[92m# 13:31:47 - Successfully spawned skin/dermis.[0m
+
+[96m# 13:31:48 - Spawning voice.[0m
+[92m# 13:31:48 - Successfully spawned voice.[0m
+
+[96m# 13:31:49 - Spawning gonads.[0m
+[92m# 13:31:49 - Successfully spawned gonads.[0m
+
+[96m# 13:31:50 - Spawning gonads/hox-genes.[0m
+[92m# 13:31:50 - Successfully spawned gonads/hox-genes.[0m
+
+[96m# 13:31:51 - Spawning gonads/chromosomes.[0m
+[92m# 13:31:51 - Successfully spawned gonads/chromosomes.[0m
+
+[96m# 13:31:52 - Installing Jade module.[0m
+jade@1.7.0 node_modules/jade
+├── character-parser@1.2.0
+├── commander@2.1.0
+├── void-elements@1.0.0
+├── mkdirp@0.5.0 (minimist@0.0.8)
+├── constantinople@2.0.1 (uglify-js@2.4.15)
+├── monocle@1.1.51 (readdirp@0.2.5)
+├── transformers@2.1.0 (promise@2.0.0, css@1.0.8, uglify-js@2.2.5)
+└── with@3.0.1 (uglify-js@2.4.15)
+[92m# 13:31:57 - Successfully installed Jade module.[0m
+
+[96m# 13:31:58 - Installing Ampersand framework modules.[0m
+ampersand-collection@1.3.16 node_modules/ampersand-collection
+├── extend-object@1.0.0
+├── ampersand-class-extend@1.0.1
+├── is-array@1.0.1
+└── backbone-events-standalone@0.2.2
+
+ampersand-router@1.0.5 node_modules/ampersand-router
+├── underscore@1.6.0
+├── ampersand-class-extend@1.0.1 (extend-object@1.0.0)
+└── backbone-events-standalone@0.2.2
+
+ampersand-view@7.1.4 node_modules/ampersand-view
+├── get-object-path@0.0.2
+├── matches-selector@1.0.0
+├── domify@1.3.1
+├── underscore@1.6.0
+├── ampersand-collection-view@1.1.2 (backbone-events-standalone@0.2.4, ampersand-class-extend@1.0.1)
+├── component-classes@1.2.1 (component-indexof@0.0.3)
+├── ampersand-state@4.3.13 (array-next@0.0.1, key-tree-store@0.1.2, backbone-events-standalone@0.2.2)
+├── events-mixin@1.1.0 (component-event@0.1.4, delegate-events@1.1.0)
+└── ampersand-dom-bindings@3.3.1 (ampersand-dom@1.2.5, is-array@1.0.1, key-tree-store@1.2.0)
+
+ampersand-model@4.0.2 node_modules/ampersand-model
+├── underscore@1.7.0
+├── ampersand-state@4.3.13 (array-next@0.0.1, key-tree-store@0.1.2, backbone-events-standalone@0.2.2)
+└── ampersand-sync@2.0.4 (underscore@1.6.0, qs@1.2.2, xhr@1.17.0)
+[92m# 13:32:04 - Successfully installed Ampersand framework modules.[0m
+
+[96m# 13:32:04 - Installing gulp module and plugins.[0m
+
+> v8flags@1.0.1 install /home/alex/Documents/Projects/tamuhack-directory/node_modules/gulp/node_modules/v8flags
+> node fetch.js
+
+flags for v8 3.14.5.9 cached.
+gulp-plumber@0.6.6 node_modules/gulp-plumber
+└── through2@0.6.3 (xtend@4.0.0, readable-stream@1.0.33)
+
+gulp-shell@0.2.10 node_modules/gulp-shell
+├── async@0.9.0
+├── through2@0.5.1 (xtend@3.0.0, readable-stream@1.0.33)
+└── lodash@2.4.1
+
+gulp@3.8.9 node_modules/gulp
+├── interpret@0.3.7
+├── pretty-hrtime@0.2.2
+├── deprecated@0.0.1
+├── archy@0.0.2
+├── v8flags@1.0.1
+├── tildify@1.0.0 (user-home@1.1.0)
+├── semver@3.0.1
+├── minimist@1.1.0
+├── chalk@0.5.1 (escape-string-regexp@1.0.2, ansi-styles@1.1.0, supports-color@0.2.0, strip-ansi@0.3.0, has-ansi@0.1.0)
+├── orchestrator@0.3.7 (stream-consume@0.1.0, sequencify@0.0.7, end-of-stream@0.1.5)
+├── vinyl-fs@0.3.10 (graceful-fs@3.0.4, strip-bom@1.0.0, mkdirp@0.5.0, vinyl@0.4.3, through2@0.6.3, glob-watcher@0.0.6, glob-stream@3.1.15, lodash@2.4.1)
+└── liftoff@0.13.5 (extend@1.3.0, flagged-respawn@0.3.1, resolve@1.0.0, findup-sync@0.1.3)
+
+gulp-watch@1.1.0 node_modules/gulp-watch
+├── vinyl-file@1.1.0 (graceful-fs@3.0.4, strip-bom@1.0.0)
+├── readable-stream@1.0.33 (isarray@0.0.1, inherits@2.0.1, string_decoder@0.10.31, core-util-is@1.0.1)
+├── gulp-batch@1.0.1 (async-done@0.4.0, stream-array@0.1.3)
+├── gaze@0.5.1 (globule@0.1.0)
+├── path2glob@0.0.2 (glob@4.0.6)
+├── glob2base@0.0.11 (lodash@2.4.1)
+└── vinyl@0.4.3 (clone-stats@0.0.1, lodash@2.4.1)
+
+gulp-util@3.0.1 node_modules/gulp-util
+├── lodash._reinterpolate@2.4.1
+├── dateformat@1.0.8
+├── minimist@1.1.0
+├── chalk@0.5.1 (escape-string-regexp@1.0.2, ansi-styles@1.1.0, supports-color@0.2.0, strip-ansi@0.3.0, has-ansi@0.1.0)
+├── lodash.template@2.4.1 (lodash._escapestringchar@2.4.1, lodash.values@2.4.1, lodash.templatesettings@2.4.1, lodash.defaults@2.4.1, lodash.keys@2.4.1, lodash.escape@2.4.1)
+├── multipipe@0.1.1 (duplexer2@0.0.2)
+├── through2@0.6.3 (xtend@4.0.0, readable-stream@1.0.33)
+├── vinyl@0.4.3 (clone-stats@0.0.1)
+└── lodash@2.4.1
+
+vinyl-source-stream@1.0.0 node_modules/vinyl-source-stream
+├── through2@0.6.3 (xtend@4.0.0, readable-stream@1.0.33)
+└── vinyl@0.4.3 (clone-stats@0.0.1, lodash@2.4.1)
+[92m# 13:32:15 - Successfully installed gulp module and plugins.[0m
+
+[96m# 13:32:16 - Installing bower module and plugins.[0m
+gulp-bower@0.0.6 node_modules/gulp-bower
+├── walk@2.3.4 (foreachasync@3.0.0)
+└── through2@0.6.3 (xtend@4.0.0, readable-stream@1.0.33)
+
+bower@1.3.12 node_modules/bower
+├── is-root@1.0.0
+├── junk@1.0.0
+├── stringify-object@1.0.0
+├── abbrev@1.0.5
+├── chmodr@0.1.0
+├── which@1.0.5
+├── osenv@0.1.0
+├── opn@1.0.0
+├── archy@0.0.2
+├── rimraf@2.2.8
+├── bower-logger@0.2.2
+├── lru-cache@2.5.0
+├── bower-endpoint-parser@0.2.2
+├── graceful-fs@3.0.4
+├── lockfile@1.0.0
+├── nopt@3.0.1
+├── retry@0.6.0
+├── tmp@0.0.23
+├── q@1.0.1
+├── request-progress@0.3.0 (throttleit@0.0.2)
+├── shell-quote@1.4.2 (array-filter@0.0.1, array-reduce@0.0.0, array-map@0.0.0, jsonify@0.0.0)
+├── semver@2.3.2
+├── fstream@1.0.2 (inherits@2.0.1)
+├── p-throttler@0.1.0 (q@0.9.7)
+├── chalk@0.5.0 (escape-string-regexp@1.0.2, ansi-styles@1.1.0, supports-color@0.2.0, strip-ansi@0.3.0, has-ansi@0.1.0)
+├── bower-json@0.4.0 (intersect@0.0.3, deep-extend@0.2.11, graceful-fs@2.0.3)
+├── mkdirp@0.5.0 (minimist@0.0.8)
+├── promptly@0.2.0 (read@1.0.5)
+├── fstream-ignore@1.0.1 (inherits@2.0.1, minimatch@1.0.0)
+├── bower-config@0.5.2 (osenv@0.0.3, graceful-fs@2.0.3, optimist@0.6.1)
+├── tar-fs@0.5.2 (pump@0.3.5, tar-stream@0.4.7)
+├── decompress-zip@0.0.8 (nopt@2.2.1, mkpath@0.1.0, touch@0.0.2, readable-stream@1.1.13, binary@0.3.0)
+├── glob@4.0.6 (inherits@2.0.1, once@1.3.1, minimatch@1.0.0)
+├── request@2.42.0 (caseless@0.6.0, json-stringify-safe@5.0.0, forever-agent@0.5.2, aws-sign2@0.5.0, stringstream@0.0.4, oauth-sign@0.4.0, tunnel-agent@0.4.0, node-uuid@1.4.1, qs@1.2.2, mime-types@1.0.2, form-data@0.1.4, bl@0.9.3, http-signature@0.10.0, tough-cookie@0.12.1, hawk@1.1.1)
+├── bower-registry-client@0.2.1 (graceful-fs@2.0.3, request-replay@0.2.0, lru-cache@2.3.1, async@0.2.10, mkdirp@0.3.5, request@2.27.0)
+├── cardinal@0.4.0 (redeyed@0.4.4)
+├── update-notifier@0.2.0 (semver-diff@0.1.0, string-length@0.1.2, latest-version@0.2.0, configstore@0.3.1)
+├── mout@0.9.1
+├── handlebars@2.0.0 (optimist@0.3.7, uglify-js@2.3.6)
+├── inquirer@0.7.1 (figures@1.3.3, mute-stream@0.0.4, through@2.3.6, readline2@0.1.0, lodash@2.4.1, cli-color@0.3.2, rx@2.3.14)
+└── insight@0.4.3 (object-assign@1.0.0, async@0.9.0, chalk@0.5.1, lodash.debounce@2.4.1, os-name@1.0.1, tough-cookie@0.12.1, configstore@0.3.1, inquirer@0.6.0)
+[92m# 13:32:36 - Successfully installed bower module and plugins.[0m
+
+[96m# 13:32:37 - Installing express framework module and plugins.[0m
+connect-flash@0.1.1 node_modules/connect-flash
+
+cookie-parser@1.3.3 node_modules/cookie-parser
+├── cookie@0.1.2
+└── cookie-signature@1.0.5
+
+express-session@1.9.1 node_modules/express-session
+├── utils-merge@1.0.0
+├── cookie@0.1.2
+├── cookie-signature@1.0.5
+├── on-headers@1.0.0
+├── parseurl@1.3.0
+├── depd@1.0.0
+├── crc@3.0.0
+├── debug@2.1.0 (ms@0.6.2)
+└── uid-safe@1.0.1 (base64-url@1.0.0, mz@1.0.2)
+
+body-parser@1.9.1 node_modules/body-parser
+├── media-typer@0.3.0
+├── raw-body@1.3.0
+├── bytes@1.0.0
+├── depd@1.0.0
+├── qs@2.3.0
+├── on-finished@2.1.1 (ee-first@1.1.0)
+├── type-is@1.5.2 (mime-types@2.0.2)
+└── iconv-lite@0.4.4
+
+express@4.10.0 node_modules/express
+├── merge-descriptors@0.0.2
+├── fresh@0.2.4
+├── escape-html@1.0.1
+├── range-parser@1.0.2
+├── finalhandler@0.3.2
+├── vary@1.0.0
+├── media-typer@0.3.0
+├── methods@1.1.0
+├── serve-static@1.7.1
+├── content-disposition@0.5.0
+├── utils-merge@1.0.0
+├── cookie@0.1.2
+├── cookie-signature@1.0.5
+├── path-to-regexp@0.1.3
+├── parseurl@1.3.0
+├── on-finished@2.1.1 (ee-first@1.1.0)
+├── depd@1.0.0
+├── qs@2.3.0
+├── etag@1.5.0 (crc@3.0.0)
+├── proxy-addr@1.0.3 (forwarded@0.1.0, ipaddr.js@0.1.3)
+├── send@0.10.1 (destroy@1.0.3, ms@0.6.2, mime@1.2.11)
+├── debug@2.1.0 (ms@0.6.2)
+├── accepts@1.1.2 (negotiator@0.4.9, mime-types@2.0.2)
+└── type-is@1.5.2 (mime-types@2.0.2)
+[92m# 13:32:43 - Successfully installed express framework module and plugins.[0m
+
+[96m# 13:32:43 - Installing socket.io module and plugins.[0m
+
+> ws@0.4.31 install /home/alex/Documents/Projects/tamuhack-directory/node_modules/socket.io/node_modules/engine.io/node_modules/ws
+> (node-gyp rebuild 2> builderror.log) || (exit 0)
+
+make: Entering directory `/home/alex/Documents/Projects/tamuhack-directory/node_modules/socket.io/node_modules/engine.io/node_modules/ws/build'
+  CXX(target) Release/obj.target/bufferutil/src/bufferutil.o
+  SOLINK_MODULE(target) Release/obj.target/bufferutil.node
+  SOLINK_MODULE(target) Release/obj.target/bufferutil.node: Finished
+  COPY Release/bufferutil.node
+  CXX(target) Release/obj.target/validation/src/validation.o
+  SOLINK_MODULE(target) Release/obj.target/validation.node
+  SOLINK_MODULE(target) Release/obj.target/validation.node: Finished
+  COPY Release/validation.node
+make: Leaving directory `/home/alex/Documents/Projects/tamuhack-directory/node_modules/socket.io/node_modules/engine.io/node_modules/ws/build'
+
+> ws@0.4.31 install /home/alex/Documents/Projects/tamuhack-directory/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/ws
+> (node-gyp rebuild 2> builderror.log) || (exit 0)
+
+make: Entering directory `/home/alex/Documents/Projects/tamuhack-directory/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/ws/build'
+  CXX(target) Release/obj.target/bufferutil/src/bufferutil.o
+  SOLINK_MODULE(target) Release/obj.target/bufferutil.node
+  SOLINK_MODULE(target) Release/obj.target/bufferutil.node: Finished
+  COPY Release/bufferutil.node
+  CXX(target) Release/obj.target/validation/src/validation.o
+  SOLINK_MODULE(target) Release/obj.target/validation.node
+  SOLINK_MODULE(target) Release/obj.target/validation.node: Finished
+  COPY Release/validation.node
+make: Leaving directory `/home/alex/Documents/Projects/tamuhack-directory/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/ws/build'
+socket.io-redis@0.1.3 node_modules/socket.io-redis
+├── uid2@0.0.3
+├── debug@0.7.4
+├── redis@0.10.1
+├── msgpack-js@0.3.0 (bops@0.0.7)
+└── socket.io-adapter@0.3.0 (socket.io-parser@2.2.0)
+
+socket.io@1.1.0 node_modules/socket.io
+├── debug@0.7.4
+├── has-binary-data@0.1.3 (isarray@0.0.1)
+├── socket.io-parser@2.2.1 (component-emitter@1.1.2, isarray@0.0.1, benchmark@1.0.0, json3@3.2.6)
+├── socket.io-adapter@0.2.0 (socket.io-parser@2.1.2)
+└── engine.io@1.4.0 (base64id@0.1.0, debug@1.0.3, engine.io-parser@1.1.0, ws@0.4.31)
+
+socket.io-client@1.1.0 node_modules/socket.io-client
+├── to-array@0.1.3
+├── indexof@0.0.1
+├── component-bind@1.0.0
+├── debug@0.7.4
+├── object-component@0.0.3
+├── component-emitter@1.1.2
+├── has-binary@0.1.5 (isarray@0.0.1)
+├── parseuri@0.0.2 (better-assert@1.0.1)
+├── socket.io-parser@2.2.2 (isarray@0.0.1, benchmark@1.0.0, json3@3.2.6)
+└── engine.io-client@1.4.0 (component-inherit@0.0.3, xmlhttprequest@1.5.0, parsejson@0.0.1, parseqs@0.0.2, parseuri@0.0.4, engine.io-parser@1.1.0, has-cors@1.0.3, ws@0.4.31)
+[92m# 13:32:53 - Successfully installed socket.io module and plugins.[0m
+
+[96m# 13:32:54 - Installing jquery module.[0m
+jquery@2.1.1 node_modules/jquery
+[92m# 13:32:58 - Successfully installed jQuery module.[0m
+
+[96m# 13:32:58 - Installing jQuery-UI module.[0m
+jquery-ui@1.10.5 node_modules/jquery-ui
+[92m# 13:33:04 - Successfully installed jQuery-UI module.[0m
+
+[96m# 13:33:05 - Installing browserify module.[0m
+browserify@6.2.0 node_modules/browserify
+├── https-browserify@0.0.0
+├── tty-browserify@0.0.0
+├── builtins@0.0.7
+├── constants-browserify@0.0.1
+├── path-browserify@0.0.0
+├── process@0.8.0
+├── os-browserify@0.1.2
+├── isarray@0.0.1
+├── inherits@2.0.1
+├── commondir@0.0.1
+├── string_decoder@0.10.31
+├── stream-browserify@1.0.0
+├── defined@0.0.0
+├── domain-browser@1.1.3
+├── shell-quote@0.0.1
+├── shallow-copy@0.0.1
+├── xtend@3.0.0
+├── deep-equal@0.2.1
+├── assert@1.1.2
+├── querystring-es3@0.2.1
+├── punycode@1.2.4
+├── url@0.10.1
+├── util@0.10.3
+├── timers-browserify@1.1.0 (process@0.5.2)
+├── events@1.0.2
+├── parents@0.0.3 (path-platform@0.0.1)
+├── vm-browserify@0.0.4 (indexof@0.0.1)
+├── console-browserify@1.1.0 (date-now@0.1.4)
+├── deps-sort@1.3.5 (through2@0.5.1, minimist@0.2.0)
+├── subarg@1.0.0 (minimist@1.1.0)
+├── readable-stream@1.0.33 (core-util-is@1.0.1)
+├── http-browserify@1.7.0 (Base64@0.2.1)
+├── browser-resolve@1.3.2
+├── shasum@1.0.0 (json-stable-stringify@0.0.1)
+├── resolve@0.7.4
+├── through2@1.1.1 (xtend@4.0.0, readable-stream@1.1.13)
+├── concat-stream@1.4.6 (typedarray@0.0.6, readable-stream@1.1.13)
+├── duplexer2@0.0.2 (readable-stream@1.1.13)
+├── JSONStream@0.8.4 (through@2.3.6, jsonparse@0.0.5)
+├── labeled-stream-splicer@1.0.0 (stream-splicer@1.3.1)
+├── buffer@2.7.0 (ieee754@1.1.4, base64-js@0.0.7, is-array@1.0.1)
+├── glob@4.0.6 (graceful-fs@3.0.4, once@1.3.1, minimatch@1.0.0)
+├── browser-pack@3.2.0 (through2@0.5.1, combine-source-map@0.3.0)
+├── umd@2.1.0 (through@2.3.6, rfile@1.0.0, uglify-js@2.4.15, ruglify@1.0.0)
+├── syntax-error@1.1.1 (esprima-fb@3001.1.0-dev-harmony-fb)
+├── browserify-zlib@0.1.4 (pako@0.2.5)
+├── crypto-browserify@3.2.8 (ripemd160@0.2.0, pbkdf2-compat@2.0.1, sha.js@2.2.6)
+├── module-deps@3.5.6 (minimist@0.2.0, stream-combiner2@1.0.2, parents@1.0.0, subarg@0.0.1, through2@0.4.2, JSONStream@0.7.4, detective@3.1.0)
+└── insert-module-globals@6.1.0 (process@0.6.0, through@2.3.6, JSONStream@0.7.4, lexical-scope@1.1.0)
+[92m# 13:33:18 - Successfully installed browserify.[0m
+
+[96m# 13:33:18 - Installing colors module.[0m
+colors@1.0.3 node_modules/colors
+[92m# 13:33:22 - Successfully installed colors.[0m
+
+[96m# 13:33:22 - Copying boilerplate files.[0m
+[92m# 13:33:23 - Successfully copied boilerplate files.[0m
+
+[96m# 13:33:23 - Linking gulp.hox to gulpfile.js.[0m
+[92m# 13:33:24 - Successfully linked gulp.hox to gulpfile.js.[0m
+
+[96m# 13:33:24 - Linking bower.hox to bower.json.[0m
+[92m# 13:33:25 - Successfully linked bower.hox to bower.json.[0m
+
+[96m# 13:33:25 - Creating new commands.hox.[0m
+[96m# 13:33:26 - Preserving previous commands.hox as commands.orig.hox[0m
+[92m# 13:33:26 - Successfully preserved previous commands.hox as commands.orig.hox.[0m
+
+[96m# 13:33:27 - Saving new commands.hox.[0m
+[92m# 13:33:27 - Successfully saved new commands.hox..[0m
+
+[96m# 13:33:28 - Installation complete! Enjoy your newly setup server![0m
+
+----------------------------------------------------------------
+

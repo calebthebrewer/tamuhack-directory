@@ -1,0 +1,52 @@
+{
+  "name": "anatomy",
+  "version": "0.0.7",
+  "description": "An opinionated yet open-ended framework for Node.js projects based on the human body.",
+  "main": "anatomy-cli.js",
+  "dependencies": {
+    "mongoose": "^3.8.18",
+    "request": "^2.46.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/suitupalex/anatomy/tree/cli"
+  },
+  "keywords": [
+    "anatomy",
+    "framework",
+    "mvc",
+    "boilerplate"
+  ],
+  "bin": {
+    "anatomy": "anatomy.sh"
+  },
+  "author": {
+    "name": "Alexander Martin"
+  },
+  "license": "MIT",
+  "gitHead": "e686b582a1bdd77e86628b4b382f9d0d2241bbe5",
+  "_id": "anatomy@0.0.7",
+  "_shasum": "d94e8df31bffdc02b4efea602f7f4c25e5c58b2b",
+  "_from": "anatomy@",
+  "_npmVersion": "1.4.28",
+  "_npmUser": {
+    "name": "suitupalex",
+    "email": "alex@suitupalex.com"
+  },
+  "maintainers": [
+    {
+      "name": "suitupalex",
+      "email": "alex@suitupalex.com"
+    }
+  ],
+  "dist": {
+    "shasum": "d94e8df31bffdc02b4efea602f7f4c25e5c58b2b",
+    "tarball": "http://registry.npmjs.org/anatomy/-/anatomy-0.0.7.tgz"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/anatomy/-/anatomy-0.0.7.tgz"
+}

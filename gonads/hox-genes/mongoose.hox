@@ -1,0 +1,9 @@
+// vi:syntax=javascript
+
+;(function() {
+  'use strict';
+
+  module.exports = {
+    uri: 'mongodb://tamuhack:tamuhackpass@ds047940.mongolab.com:47940/tamuhack_directory' 
+  };
+})();

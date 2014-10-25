@@ -1,0 +1,14 @@
+// vi:syntax=javascript
+
+;(function() {
+  'use strict';
+
+  var url = require('url');
+
+  module.exports = {
+    express: require('./express.hox'),
+    socketio: require('./socketio.hox'),
+    mongoose: require('./mongoose.hox'),
+    saltEntropy: 8
+  };
+})();

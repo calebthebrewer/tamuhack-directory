@@ -1,0 +1,77 @@
+doctype html
+html(lang='en')
+  head
+    title Dashboard
+    link(rel='stylesheet', href='/skin/dermis/normalize.css')
+    link(rel='stylesheet', href='/skin/dermis/foundation.css')
+    link(rel='stylesheet', href='/skin/dermis/epidermis.css')
+  body
+    section#welcome
+      #tamuhack-logo
+        img(src='/skin/images/tamuhack_logo.png')
+        h1 TAMUHack
+        h4 Project Directory
+      button#submitProject Submit a Project
+      .row
+        each project, id in projects
+          .small-12.medium-6.large-6.columns.end
+            h3=project.name
+            p
+              if project.demoUrl.length > 0
+                a(href=project.demoUrl, target='_blank') Live Demo
+              if project.demoUrl.length > 0 && project.githubUrl.length > 0
+                | &nbsp;|&nbsp;
+              if project.githubUrl.length > 0
+                a(href=project.githubUrl, target='_blank') GitHub
+            ul
+              each member in project.members
+                if member.name.length > 0
+                  li
+                    =member.name
+                    | &nbsp;-&nbsp;
+                    a(href='http://twitter.com/'+member.twitter, target='_blank') Twitter
+                    | &nbsp;|&nbsp;
+                    a(href=member.site, target='_blank') Site
+            p=project.description
+    section#submission
+      h1 Submit a Project
+      form
+        .row
+          .small-7.columns
+            .row
+              label Project Name
+                input(type='text', placeholder='Just a Rather Very Intelligent System (JARVIS)', name='name', required)
+            .row
+              label Live Demo URL
+                input(type='text', placeholder='http://iamironman.com/jarvis-demo', name='demoUrl')
+            .row
+              label GitHub URL
+                input(type='text', placeholder='http://github.com/hvymetaltony1970/jarvis', name='githubUrl')
+            .row
+              label Description
+                textarea(rows=20, placeholder='A virtual assistant I made because Pepper doesn\'t know anything about integrated circuits. He\'s got a classy British accent because I\'m classy.', name='description', required)
+          .small-5.columns
+            .row
+              label Team Member #1's Info
+                input(type='text', placeholder='Tony Stark', name='memberName1', required)
+                input(type='text', placeholder='Twitter Username', name='memberTwitter1')
+                input(type='text', placeholder='Personal Site', name='memberSite1')
+            .row
+              label Team Member #2's Info
+                input(type='text', placeholder='Name', name='memberName2')
+                input(type='text', placeholder='Twitter Username', name='memberTwitter2')
+                input(type='text', placeholder='Personal Site', name='memberSite2')
+            .row
+              label Team Member #3's Info
+                input(type='text', placeholder='Name', name='memberName3')
+                input(type='text', placeholder='Twitter Username', name='memberTwitter3')
+                input(type='text', placeholder='Personal Site', name='memberSite3')
+            .row
+              label Team Member #4's Info
+                input(type='text', placeholder='Name', name='memberName4')
+                input(type='text', placeholder='Twitter Username', name='memberTwitter4')
+                input(type='text', placeholder='Personal Site', name='memberSite4')
+        .row
+          input(type='submit', value='Go!').button
+      h4#greeting
+    script(src='/muscle/skeletal.bundle.js')
