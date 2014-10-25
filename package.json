@@ -1,11 +1,36 @@
 {
-  "name": "anatomy",
-  "version": "0.0.7",
-  "description": "An opinionated yet open-ended framework for Node.js projects based on the human body.",
-  "main": "anatomy-cli.js",
+  "name": "tamuhack-directory",
+  "version": "1.0.0",
+  "description": "A directory for TAMUHack projects using anatomy.",
+  "main": "brain/stem.js",
   "dependencies": {
+    "ampersand-collection": "^1.3.16",
+    "ampersand-model": "^4.0.2",
+    "ampersand-router": "^1.0.5",
+    "ampersand-view": "^7.1.4",
+    "body-parser": "^1.9.1",
+    "bower": "^1.3.12",
+    "browserify": "^6.2.0",
+    "colors": "^1.0.3",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.3.3",
+    "express": "^4.10.0",
+    "express-session": "^1.9.1",
+    "gulp": "^3.8.9",
+    "gulp-bower": "^0.0.6",
+    "gulp-shell": "^0.2.10",
+    "gulp-plumber": "^0.6.6",
+    "gulp-util": "^3.0.1",
+    "gulp-watch": "^1.1.0",
+    "jade": "^1.7.0",
+    "jquery": "^2.1.1",
+    "jquery-ui": "^1.10.5",
     "mongoose": "^3.8.18",
-    "request": "^2.46.0"
+    "request": "^2.46.0",
+    "socket.io": "^1.1.0",
+    "socket.io-client": "^1.1.0",
+    "vinyl-source-stream": "^1.0.0",
+    "socket.io-redis": "^0.1.3"
   },
   "devDependencies": {},
   "scripts": {
@@ -13,40 +38,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/suitupalex/anatomy/tree/cli"
+    "url": "https://github.com/helpdotcom/tamuhack-directory"
   },
   "keywords": [
+    "TAMUHack",
     "anatomy",
-    "framework",
-    "mvc",
-    "boilerplate"
+    "hackathon",
+    "aggies"
   ],
-  "bin": {
-    "anatomy": "anatomy.sh"
-  },
-  "author": {
-    "name": "Alexander Martin"
-  },
+  "author": "Alexander Martin",
   "license": "MIT",
-  "gitHead": "e686b582a1bdd77e86628b4b382f9d0d2241bbe5",
-  "_id": "anatomy@0.0.7",
-  "_shasum": "d94e8df31bffdc02b4efea602f7f4c25e5c58b2b",
-  "_from": "anatomy@",
-  "_npmVersion": "1.4.28",
-  "_npmUser": {
-    "name": "suitupalex",
-    "email": "alex@suitupalex.com"
+  "bugs": {
+    "url": "https://github.com/helpdotcom/tamuhack-directory/issues"
   },
-  "maintainers": [
-    {
-      "name": "suitupalex",
-      "email": "alex@suitupalex.com"
-    }
-  ],
-  "dist": {
-    "shasum": "d94e8df31bffdc02b4efea602f7f4c25e5c58b2b",
-    "tarball": "http://registry.npmjs.org/anatomy/-/anatomy-0.0.7.tgz"
-  },
-  "directories": {},
-  "_resolved": "https://registry.npmjs.org/anatomy/-/anatomy-0.0.7.tgz"
+  "homepage": "https://github.com/helpdotcom/tamuhack-directory"
 }
