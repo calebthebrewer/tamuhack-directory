@@ -32,7 +32,7 @@ html(lang='en')
                     a(href='http://twitter.com/'+member.twitter, target='_blank') Twitter
                     | &nbsp;|&nbsp;
                     a(href=member.siteUrl, target='_blank') Site
-            p=project.description
+            p!=project.description.replace(/\n/g, "<br />")
     section#submission
       h1 Submit a Project
       form
