@@ -5,7 +5,8 @@
 
   var CEREBELLUM = require('../../brain/cerebellum.js');
   var Project = require('../../brain/cerebrum/project.js');
-  var dbRequest = require('request');
+
+  var sanitizeHtml = require('sanitize-html');
 
   var self;
   module.exports = self = {
@@ -104,18 +105,18 @@
           var form = request.body;
 
           var newProject = new Project();
-          newProject.name = form.name;
-          newProject.demoUrl = form.demoUrl;
-          newProject.githubUrl = form.githubUrl;
-          newProject.description = form.description;
+          newProject.name = sanitizeHtml(form.name);
+          newProject.demoUrl = sanitizeHtml(form.demoUrl);
+          newProject.githubUrl = sanitizeHtml(form.githubUrl);
+          newProject.description = sanitizeHtml(form.description);
           var members = [];
 
           for (var i = 1; i < 5; i++) {
             if (form['memberName' + i] !== '') {
               members.push({
                 name: form['memberName' + i],
-                twitter: form['memberTwitter' + i] !== '' ? form['memberTwitter' + i] : null,
-                siteUrl: form['memberSite' + i] !== '' ? form['memberSite' + i] : null
+                twitter: form['memberTwitter' + i] !== '' ? sanitizeHtml(form['memberTwitter' + i]) : null,
+                siteUrl: form['memberSite' + i] !== '' ? sanitizeHtml(form['memberSite' + i]) : null
               });
             }
           }
